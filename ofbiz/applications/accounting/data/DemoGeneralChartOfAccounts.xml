@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alias name="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../../framework/entity/dtd/entitymodel.xsd" />
+<!-- COMPTES DE FINANCEMENT PERMANENT -->
+<GlAccount parentGlAccountId="" glAccountId="1" accountCode="1"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES DE FINANCEMENT PERMANENT" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="1" glAccountId="11" accountCode="11"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Capitaux Propres" description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="11" glAccountId="111"
+	accountCode="111" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Capitaux Social" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="1" glAccountId="11" accountCode="11"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Fonds de Dotation" description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="111" glAccountId="1117"
+	accountCode="1117" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Capitaux Personel" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="111" glAccountId="1112"
+	accountCode="1112" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Fonds de Dotation" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="1117" glAccountId="11171"
+	accountCode="11171" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Capital Personnel" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="1117" glAccountId="11175"
+	accountCode="11175" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Compte de l'Exploitant"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="111" glAccountId="1119"
+	accountCode="1119" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Actionnaires, Capital souscrit non appelé"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="11" glAccountId="112"
+	accountCode="112" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Primes d’émission, de fusion et d'apport"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="112" glAccountId="1121"
+	accountCode="1121" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Primes d'émission" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="112" glAccountId="1122"
+	accountCode="1122" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Primes de Fusion" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="112" glAccountId="1123"
+	accountCode="1123" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Primes d'apport" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="11" glAccountId="113"
+	accountCode="113" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Écarts de réévaluation"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="113" glAccountId="1130"
+	accountCode="1130" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Écarts de réévaluation"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="11" glAccountId="114"
+	accountCode="114" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Réserve légale" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="114" glAccountId="1140"
+	accountCode="1140" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Réserve légale" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="11" glAccountId="115"
+	accountCode="115" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres réserves" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="115" glAccountId="1151"
+	accountCode="1151" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Réserves statutaires ou contractuelles"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="115" glAccountId="1152"
+	accountCode="1152" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Réserves facultatives"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="115" glAccountId="1155"
+	accountCode="1155" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Réserves réglementaires"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="11" glAccountId="116"
+	accountCode="116" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Report à nouveau" description=""
+	postedBalance="0.0" />
+<GlAccount parentGlAccountId="116" glAccountId="1161"
+	accountCode="1161" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Report à nouveau (solde créditeur)"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="116" glAccountId="1169"
+	accountCode="1169" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Report à nouveau (solde débiteur)"
+	description="" postedBalance="0.0" />
+
+
+
+<GlAccount parentGlAccountId="11" glAccountId="118"
+	accountCode="118" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Résultat net en Instance d'Affectation"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="118" glAccountId="1181"
+	accountCode="1181" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Résultat net en Instance d'Affectation (Solde Créditeur)"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="118" glAccountId="1189"
+	accountCode="1189" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Résultat net en Instance d'Affectation (Solde Debiteur)"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="11" glAccountId="119"
+	accountCode="119" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Résultat net de l'exercice"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="119" glAccountId="1191"
+	accountCode="1191" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Résultat net de l'exercice (Solde créditeur)"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="119" glAccountId="1199"
+	accountCode="1199" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Résultat net de l'exercice (Solde débiteur)"
+	description="" postedBalance="0.0" />
+
+
+
+<GlAccount parentGlAccountId="1" glAccountId="13" accountCode="13"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Capitaux Propres et Assimilés" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="13" glAccountId="131"
+	accountCode="131" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Subventions d'investissement"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="131" glAccountId="1311"
+	accountCode="1311" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Subventions d'investissement"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="131" glAccountId="1319"
+	accountCode="1319" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Subvention d'investissement inscrits au compte de produit et charges"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="13" glAccountId="135"
+	accountCode="135" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions réglementées"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="135" glAccountId="1351"
+	accountCode="1351" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour amortissements dérogatoires"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="135" glAccountId="1352"
+	accountCode="1352" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour plus-values en instance d'imposition"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="135" glAccountId="1354"
+	accountCode="1354" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions Pour Investissements"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="135" glAccountId="1355"
+	accountCode="1355" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour reconstitution des gisements"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="135" glAccountId="1356"
+	accountCode="1356" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Provisions pour acquisition et construction de logements"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="135" glAccountId="1358"
+	accountCode="1358" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres provisions réglementées"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="1" glAccountId="14" accountCode="14"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Dettes de Financement" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="14" glAccountId="141"
+	accountCode="141" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Emprunts Obligataires"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="141" glAccountId="1410"
+	accountCode="1410" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Emprunts Obligataires"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="14" glAccountId="148"
+	accountCode="148" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres dettes de Financement"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="148" glAccountId="1481"
+	accountCode="1481" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Emprunts auprès des établissements de crédits"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="148" glAccountId="1482"
+	accountCode="1482" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Avance de l’État" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="148" glAccountId="1483"
+	accountCode="1483" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Dettes rattachées à des participations"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="148" glAccountId="1484"
+	accountCode="1484" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Billets de Fonds" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="148" glAccountId="1485"
+	accountCode="1485" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Avances reçus et comptes courants bloqués"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="148" glAccountId="1486"
+	accountCode="1486" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Fournisseurs d'immobilisations"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="148" glAccountId="1487"
+	accountCode="1487" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Dépôts et cautionnements reçus"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="148" glAccountId="1488"
+	accountCode="1488" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Dettes de Financement diverses"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="1" glAccountId="15" accountCode="15"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Provisions Durables Pour Risques et Charges" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="15" glAccountId="151"
+	accountCode="151" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour Risques"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="151" glAccountId="1511"
+	accountCode="1511" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour litiges"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="151" glAccountId="1512"
+	accountCode="1512" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour garanties données aux clients"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="151" glAccountId="1513"
+	accountCode="1513" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour propre assureur"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="151" glAccountId="1514"
+	accountCode="1514" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour pertes sur marché à terme"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="151" glAccountId="1515"
+	accountCode="1515" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour amendes, doubles droits, pénalités"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="151" glAccountId="1516"
+	accountCode="1516" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour pertes de change"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="151" glAccountId="1518"
+	accountCode="1518" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres provisions pour risque"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="15" glAccountId="155"
+	accountCode="155" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions pour charges"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="155" glAccountId="1551"
+	accountCode="1551" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Provisions Pour impôts"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="155" glAccountId="1552"
+	accountCode="1552" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Provisions, pensions de retraite et obligations similaires"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="155" glAccountId="1555"
+	accountCode="1555" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Provisions pour charges à répartir sur plusieurs exercices"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="155" glAccountId="1558"
+	accountCode="1558" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres provisions pour charges"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="1" glAccountId="16" accountCode="16"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Comptes de liaison des établissements et succursales"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="16" glAccountId="160"
+	accountCode="160" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Comptes de liaison des établissements et succursales"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="160" glAccountId="1601"
+	accountCode="1601" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Comptes de liaison de sièges"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="160" glAccountId="1605"
+	accountCode="1605" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Comptes de liaison des établissements"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="1" glAccountId="17" accountCode="17"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Écarts de conversion - Passif" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="17" glAccountId="171"
+	accountCode="171" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Augmentation des créances immobilisées"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="171" glAccountId="1710"
+	accountCode="1710" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Augmentation des créances immobilisées"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="17" glAccountId="172"
+	accountCode="172" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Diminution des dettes de Financement"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="172" glAccountId="1720"
+	accountCode="1720" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Diminution des dettes de Financement"
+	description="" postedBalance="0.0" />
+
+
+<!-- COMPTES D'ACTIF IMMOBILISE -->
+<GlAccount parentGlAccountId="" glAccountId="2" accountCode="2"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES D'ACTIF IMMOBILISE" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2" glAccountId="21" accountCode="21"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Immobilisation en non-valeurs" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="21" glAccountId="211"
+	accountCode="211" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais Préliminaires" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="211" glAccountId="2111"
+	accountCode="2111" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais de Constitution"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="211" glAccountId="2112"
+	accountCode="2112" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais préalables au démarrage"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="211" glAccountId="2113"
+	accountCode="2113" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais d'augmentation du capital"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="211" glAccountId="2114"
+	accountCode="2114" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Frais sur opérations de Fusion, scissions et transformations"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="211" glAccountId="2116"
+	accountCode="2116" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais de prospection"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="211" glAccountId="2117"
+	accountCode="2117" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais de publicité" description=""
+	postedBalance="0.0" />
+<GlAccount parentGlAccountId="211" glAccountId="2118"
+	accountCode="2118" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres frais préliminaires"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="21" glAccountId="212"
+	accountCode="212" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Charges à répartir sur plusieurs exercices"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="212" glAccountId="2121"
+	accountCode="2121" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais d'acquisition des immobilisations"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="212" glAccountId="2125"
+	accountCode="2125" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Frais d'émission des emprunts"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="212" glAccountId="2128"
+	accountCode="2128" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres charges à répartir"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="21" glAccountId="213"
+	accountCode="213" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Primes de remboursement des obligations"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="213" glAccountId="2130"
+	accountCode="2130" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Primes de remboursement des obligations"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2" glAccountId="22" accountCode="22"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Immobilisation Incorporelles" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="22" glAccountId="221"
+	accountCode="221" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Immobilisations en recherche et Développement"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="22" glAccountId="222"
+	accountCode="222" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Brevets, marques, droits et valeurs similaires"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="221" glAccountId="2210"
+	accountCode="2210" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Immobilisations en recherche et Développement"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="222" glAccountId="2220"
+	accountCode="2220" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Brevets, marques, droits et valeurs similaires"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="22" glAccountId="223"
+	accountCode="223" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Fonds Commercial" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="223" glAccountId="2230"
+	accountCode="2230" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Fonds Commercial" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="22" glAccountId="228"
+	accountCode="228" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres immobilisations Incorporelles"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="228" glAccountId="2285"
+	accountCode="2285" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres immobilisations Incorporelles"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2" glAccountId="23" accountCode="23"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Immobilisations Corporelles" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="23" glAccountId="231"
+	accountCode="231" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Terrains" description=""
+	postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="231" glAccountId="2311"
+	accountCode="2311" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Terrains nus" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="231" glAccountId="2312"
+	accountCode="2312" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Terrains aménagés" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="231" glAccountId="2313"
+	accountCode="2313" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Terrains bâtis" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="231" glAccountId="2314"
+	accountCode="2314" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Terrains de gisement"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="231" glAccountId="2316"
+	accountCode="2316" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Agencement et aménagements de terrains"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="231" glAccountId="2318"
+	accountCode="2318" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres terrains" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="23" glAccountId="232"
+	accountCode="232" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Construction" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="232" glAccountId="2321"
+	accountCode="2321" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Bâtiments" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2321" glAccountId="23211"
+	accountCode="23211" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Bâtiments industriels (A, B...)"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="23211" glAccountId="23214"
+	accountCode="23214" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Bâtiments administratifs et commerciaux (A, B…)"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="23211" glAccountId="23218"
+	accountCode="23218" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres bâtiments" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="232" glAccountId="2323"
+	accountCode="2323" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Construction sur terrains d'autrui"
+	description="" postedBalance="0.0" />
+
+
+<GlAccount parentGlAccountId="232" glAccountId="2325"
+	accountCode="2325" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Ouvrages d'infrastructures"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="232" glAccountId="2327"
+	accountCode="2327" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Agencement et aménagements des constructions"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="232" glAccountId="2328"
+	accountCode="2328" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres constructions"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="23" glAccountId="233"
+	accountCode="233" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Installations Techniques, matériel et outillage"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="233" glAccountId="2331"
+	accountCode="2331" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Installations Techniques"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="233" glAccountId="2332"
+	accountCode="2332" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Matériel et outillage"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2332" glAccountId="23321"
+	accountCode="23321" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Matériel" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2332" glAccountId="23324"
+	accountCode="23324" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Outillage" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="233" glAccountId="2333"
+	accountCode="2333" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Emballages récupérables identifiables"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="233" glAccountId="2338"
+	accountCode="2338" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Autres Installations techniques, matériel et outillage"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="23" glAccountId="234"
+	accountCode="234" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Matériel de transport"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="234" glAccountId="2340"
+	accountCode="2340" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Matériel de transport"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="23" glAccountId="235"
+	accountCode="235" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Mobilier, matériel de bureau et aménagements divers"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="235" glAccountId="2351"
+	accountCode="2351" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Mobilier de bureau" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="235" glAccountId="2352"
+	accountCode="2352" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Matériel de bureau" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="235" glAccountId="2355"
+	accountCode="2355" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Matériel Informatique"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="235" glAccountId="2356"
+	accountCode="2356" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Agencement, installations et aménagements divers (de biens n'appartenant pas à
+l'entreprise)"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="235" glAccountId="2358"
+	accountCode="2358" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Autres mobiliers, matériel de bureau et aménagements divers"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="23" glAccountId="238"
+	accountCode="238" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres immobilisations corporelles"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="238" glAccountId="2380"
+	accountCode="2380" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres immobilisations corporelles"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="23" glAccountId="239"
+	accountCode="239" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Immobilisations corporelles en cours"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="239" glAccountId="2392"
+	accountCode="2392" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="immobilisations Corporelles en cours et terrains de constructions"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="239" glAccountId="2393"
+	accountCode="2393" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="immobilisations Corporelles en cours et terrains des installations techniques,matériel et outillage"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="239" glAccountId="2394"
+	accountCode="2394" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Immobilisations corporelles en cours de matériel de transports"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="239" glAccountId="2395"
+	accountCode="2395" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Immobilisations corporelles en cours de mobilier, matériel de bureau et aménagement divers"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="239" glAccountId="2397"
+	accountCode="2397" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY"
+	accountName="Avances et acomptes versés sur commandes d'immobilisations corporelles"
+	description="" postedBalance="0.0" />
+<GlAccount parentGlAccountId="239" glAccountId="2398"
+	accountCode="2398" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres immobilisations corporelles en cours"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2" glAccountId="24" accountCode="24"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Immobilisations Financières" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2" glAccountId="25" accountCode="25"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="Immobilisations Financières" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="24" glAccountId="241"
+	accountCode="241" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Prêts immobilisés" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="241" glAccountId="2411"
+	accountCode="2411" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Prêts au personnel" description=""
+	postedBalance="0.0" />
+<GlAccount parentGlAccountId="241" glAccountId="2415"
+	accountCode="2415" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Prêts aux associés" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="241" glAccountId="2416"
+	accountCode="2416" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Billets de Fonds" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="241" glAccountId="2418"
+	accountCode="2418" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres prêts" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="24" glAccountId="248"
+	accountCode="248" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Autres créances financières"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="248" glAccountId="2481"
+	accountCode="2481" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Titres immobilisés (Droits de créance)"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2481" glAccountId="24811"
+	accountCode="24811" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Obligations" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2481" glAccountId="24813"
+	accountCode="24813" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Bons d'équipements" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="2481" glAccountId="24818"
+	accountCode="24818" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Bons divers" description=""
+	postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="248" glAccountId="2483"
+	accountCode="2483" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Créances rattachées à des participations"
+	description="" postedBalance="0.0" />
+	
+	<GlAccount parentGlAccountId="248" glAccountId="2486"
+	accountCode="2486" glAccountClassId="ASSET" glAccountTypeId=""
+	glResourceTypeId="MONEY" accountName="Dépôts et cautionnements versés"
+	description="" postedBalance="0.0" />
+
+
+
+
+<!-- COMPTES D'ACTIF CIRCULATION (HORS TRESORERIE) -->
+<GlAccount parentGlAccountId="" glAccountId="3" accountCode="3"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES D'ACTIF CIRCULATION (HORS TRESORERIE)"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="" glAccountId="4" accountCode="4"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES DE PASSIF CIRCULANT (HORS TRESORERIE)"
+	description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="" glAccountId="5" accountCode="5"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES DE TRESORERIE" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="" glAccountId="6" accountCode="6"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="CHARGES" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="" glAccountId="7" accountCode="7"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES DE PRODUITS" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="" glAccountId="8" accountCode="8"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES DE RESULTATS" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="" glAccountId="9" accountCode="9"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES ANALYTIQUES" description="" postedBalance="0.0" />
+
+<GlAccount parentGlAccountId="" glAccountId="0" accountCode="0"
+	glAccountClassId="ASSET" glAccountTypeId="" glResourceTypeId="MONEY"
+	accountName="COMPTES SPECIAUX" description="" postedBalance="0.0" />
